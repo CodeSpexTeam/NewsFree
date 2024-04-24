@@ -5,7 +5,7 @@ export default class Business extends PureComponent {
   render() {
     return (
       <>
-       <News pageSize={20} country="in" category="business"/>
+       <News pageSize={5} country="in" category="business"/>
       </>
     )
   }
